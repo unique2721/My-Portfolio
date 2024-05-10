@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gebremariam Kidane">
+    <meta name="description" content="Personal portfolio website design">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="script.js" defer></script>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!-- header section design -->
+    <header>
+        <div class="navbar-left">
+            <p class="logo"><a href="#about" title="click here">Gebre<span>mariam.</span> </a></p>
+            <p><img src="images/img1.jpg" alt="Profile"> </p>
+        </div>
+        <section class="menu">
+            <button class="menu-button showMenu">
+                <div class="menu-icon"></div>
+            </button>
+        </section>
+        <nav class="navbar">
+            <ul>
+                <li class="list-items homenav active"><a href="/">Home</a></li>
+                <li class="list-items aboutnav"><a href="#about">About</a></li>
+                <li class="list-items goalsnav"><a href="#goals">Goals</a></li>
+                <li class="list-items skillsnav"><a href="#skills">Skills</a></li>
+                <li class="list-items backgroundnav"><a href="#background">Background</a></li>
+                <li class="list-items contactnav"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hidden hide">
+        <nav class="navbar-hidden">
+                <ul>
+                    <li class="hidden-list-items"><a href="/">Home</a></li>
+                    <li class="hidden-list-items"><a href="#about">About</a></li>
+                    <li class="hidden-list-items"><a href="#goals">Goals</a></li>
+                    <li class="hidden-list-items"><a href="#skills">Skills</a></li>
+                    <li class="hidden-list-items"><a href="#background">Background</a></li>
+                    <li class="hidden-list-items"><a href="#contact">Contact</a></li>
+                </ul>
+        </nav>
+    </section>
+    <!-- main section design -->
+    <main>
+        <!-- home section design -->
+        <article class="home" id="home">
+            <div class="header">
+                <h3>Hey, I am</h3>
+                <h1>Gebremariam Kidane</h1>
+                <h2>And I am a Web <span>Developer</span>!</h2>
+                <p>I am a begineer web developer who have a strong familarity with html, css, bootstrap, javascript and react.</p>
+            </div>
+            <div class="header-img">
+                <img src="images/img2.jpg" alt="profile image" width="500px" height="450px" title="Profile picture">
+            </div> <br>
+        </article>
+        
+        <!-- about section design -->
+        <article class="about" id="about">
+            <div class="about-img">
+                <img src="images/img3.jpg" alt="about image" width="500px" height="700px" title="Gebremariam Kidane">
+            </div>
+            <div class="about-content">
+                <h1>About <span>Me</span></h1>
+                <p>I'm Gebremariam Kidane. I am 20 years old and I'm a student.</p>
+                    <p>I live in Ethiopia which has beautiful people with beautiful religion, culture, and identity.I was born in 1995 E.C</p>
+                    <p> I'm currently following my Bsc program in Informatiion Technology at Bahirdar University Ethiopia.</p>
+                    <p> I.m really happy of this departmnet, because I am still enjoying and learning much more</p>
+                    <p>interesting courses which are helpful to be considered as an IT professional.</p>                 
+                    <p>My favorite hobbies are studying, reading books and listening music.</p>
+                    <div class="social-icons">
+                        <ul>
+                            <li><a href="https://www.facebook.com/unique2721/" target="_blank"><i class="fa-brands fa-facebook" title="facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/unique272119/" target="_blank"><i class="fa-brands fa-instagram" title="Instagram"></i></a></li>
+                            <li><a href="https://t.me/unique2721/" target="_blank"><i class="fa-brands fa-telegram" title="Telegam"></i></a></li>
+                            <li><a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok" title="Tik tok"></i></a></li>
+                        </ul>
+                    </div>
+                    <button class="btn about-btn-more btn-more">Read More</button>
+                    <div class="more-about-content">
+                    </div>
+            </div>
+        </article>
+<!-- goals section design -->
+<article class="goals" id="goals">
+    <h1>My <span>Goals</span></h1>
+    <p>I am the one who want to be </p>
+    <div class="goals-content">
+        <div class="goal-1">
+            <i class="fa-solid fa-code"></i>
+            <h2>Frontend Developer</h2>
+            <p>I want to be Frontend developer this year. It is because I want to build dynamic and scalable websites. I want to solve real life problems and make people to ease their life by developig websites for small and medium sized bussiness.</p>
+            <div>
+                <button class="btn btn-more-goal-1-content btn-more">Read More</button>
+            </div>
+            <div class="more-goals-content-1">
+           </div>
+        </div>
+
+        <div class="goal-2">
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Backend Developer</h2>
+            <p>Because I want to be expert who builds and maintain the mechanisms that process data and perform actions on websites. I want to work on the server side software to ensure the website work correctly, focusing on databases,APIs,architectur and backend logic.</p>
+            <div>
+                <button class="btn btn-more-goal-2-content btn-more">Read More</button>
+            </div>
+            <div class="more-goals-content-2">
+            </div>
+        </div>
+
+        <div class="goal-3">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <h2>Mobile App Developer</h2>
+            <p>It is because I want to build mobile apps for smartphones, tablets and digital assistants most commonly for Android and IOS operating systems.</p>
+            <div>
+                <button class="btn btn-more-goal-3-content btn-more">Read More</button>
+            </div>
+            <div class="more-goals-content-3">
+            </div>
+        </div>
+    </div>
+</article>
+<!-- skills section design -->
+<article class="skills" id="skills">
+    <h1>My <span>Skills</span></h1>
+    <div class="skills-row">
+        <div class="skills-column">
+            <h3 class="title">Coding Skills</h3>
+            <div class="skills-box">
+                <div class="skills-content">
+                    <div class="progress">
+                        <h3>HTML <span>95%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>CSS <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>Javascript <span>80%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>React <span>70%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>MySQL <span>70%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-column">
+            <h3 class="title">General Skills</h3>
+            <div class="skills-box">
+                <div class="skills-content">
+                    <div class="progress">
+                        <h3>Creative Thinking <span>85%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>Descipline <span>95%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>Attitude <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>Self Esteem <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>Interpersonal Skills <span>85%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+<!-- background section design -->
+<article class="background" id="background">
+        <h1>My <span>Journey</span></h1>
+        <p>Here below is a brief description of my school journey</p>
+        <div class="background-content">
+            <div class="background-1">
+                <h2>From <time datetime="2002">2002</time> to <time datetime="2009">2009</time></h2>
+                <p>I have completed my elementary school in Tiruneh Yazezew primary school since 2009. I had good performance and I was very excellent student. I have been ranking 1st in my class. I was also active participant in different activities including presenting peoms at stage, cleaning the school areas and many more others. I was 14 years old when i finished my elementary school.</p>
+                <div>
+                    <button class="btn btn-more btn-more-background-1-content">Read More</button>
+                </div>
+                <div class="more-background-content-1">
+       
+                </div>
+            </div>
+            <div class="background-2">
+                <h2>From <time datetime="2010">2010</time> to <time datetime="2014">2014</time></h2>
+                <p>I have completed my secondary school in maxegongebeya comprehensive secondary school since 2014. I had good performance and I was very excellent student too. I have been ranking 1st in my class. I was also active participant in different activities including presenting peoms at stage, cleaning the school areas and many more others.</p>
+                <div>
+                    <button class="btn btn-more btn-more-background-2-content">Read More</button>
+                </div>
+                <div class="more-background-content-2">
+                </div>
+            </div>
+            <div class="background-3">
+                <h2>From <time datetime="2015">2015</time> to Now</h2>
+                <p>currently I am studying my Bsc program in Information Technology (IT) departmnet at Bahir Dar University since 2015. I am 3rd year right now. and I am gonna graduated next year. Here I also have good resuls. I am learning much and much daily. </p>
+                <div>
+                    <button class="btn btn-more btn-more-background-3-content">Read More</button>
+                </div>
+                <div class="more-background-content-3">
+                </div>
+            </div>
+        </div>
+</article>
+<!-- contact section design -->
+<article class="contact" id="contact">
+    <h1>Contact <span>Me</span></h1>
+    <p>I am really happy to be contacted with you.</p>
+    <div class="error"></div>
+    <form >
+        <div class="input-fields">
+                <input class="input-element-1" type="text" placeholder="first name" required>
+                <input class="input-element-2" type="text" placeholder="last name" required>
+                <input class="input-element-3" type="email" placeholder="email" required>
+                <input class="input-element-4" type="tel" name="phone" id="phone" placeholder="phone" required>
+                <textarea name="message" id="message" placeholder="type your message here..."></textarea>
+                <div class="buttons">
+                    <input class="submit-btn" type="submit" value="Send Message">
+                    <input class="reset-btn" type="reset" value="Reset">
+                </div>  
+        </div>
+        <div class="address">
+            <address>
+                <h1>My Address</h1>
+                Location: Bahir Dar, Ethiopia <br>
+                Call: <a href="tel:0938851982" title="call me">09-38-85-19-82</a><br>
+                Email: <a href="mailto:uniquehabeshawi@gmail.com" title="email me">uniquehabeshawi@gmail.com</a>
+            </address>
+        </div>
+    </form>
+</article>
+<section class="remark">
+    <h1>Remark</h1>
+    <p>I know that there are many more avilable source codes for building personal portfolio such as in github, youtube and others.</p>
+    <p>but me I just designed my portfolio totaly from scratch. Because I want to improve my skills. </p>
+    <p>I hope that you will help me a lot.</p>
+</section>
+    </main>
+    <!-- footer section design -->
+    <footer>
+        <div>
+            <p>Developed by Gebremariam Kidane.<p>Copyright &copy; <span class="year"></span> All Rights are Reserved</p><span></span></p>
+        </div>
+        <div class="quick-links">
+            <h2>Follow me on social</h2>
+            <ul>
+                <li><a href="https://www.facebook.com/unique2721/" target="_blank">facebook</a></li>
+                <li><a href="https://www.linkedin.com/Gebremariam Kidane/" target="_blank">Linkedin</a></li>
+                <li><a href="https://www.instagram.com/unique272119/" target="_blank">instagram</a></li>
+                <li><a href="https://www.tiktok.com/unique272119" target="_blank">tiktok</a></li>
+            </ul>
+        </div>
+        <div class="top">
+            <a href="#" class="backToTop"><i class="fa-solid fa-arrow-up" title="Back to top"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
