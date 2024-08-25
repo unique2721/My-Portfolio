@@ -737,9 +737,6 @@ footer a:hover i {
 
   /* home */
   .home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column-reverse;
     text-align: center;
   }
@@ -1222,7 +1219,7 @@ footer a:hover i {
       width: 45%;
     }
     .contact .input-fields textarea {
-      width: 80%;
+      width: 92%;
     }
     .contact .buttons input {
       width: fit-content;
